@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate to Shots For Strays</title>
+    <style>
+        body { font-family: Arial; padding: 20px; text-align: center; }
+        .donation-options { margin-top: 30px; }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            background: #009879;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        input[type='number'] {
+            padding: 8px;
+            font-size: 16px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Choose your donation method</h2>
+    <div class="donation-options">
+        <button onclick="alert('Redirecting to QR Code + Credit Card page')">Donate with PromptPay or Credit Card</button>
+        <div style="margin-top: 20px;">
+            <h3>Custom Gift</h3>
+            <input type="number" placeholder="Enter amount (THB)" />
+            <br><br>
+            <button onclick="alert('Processing custom donation...')">Donate Custom Amount</button>
+        </div>
+    </div>
+</body>
+</html>
