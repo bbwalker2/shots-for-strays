@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donation Options</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #fffaf9;
+    }
+    header {
+      background-color: #ff6666;
+      color: white;
+      padding: 1.5rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    p {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+    }
+    .donation-options {
+      margin: 2rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    button {
+      background-color: #ff6666;
+      color: white;
+      border: none;
+      padding: 1rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    img {
+      width: 140px;
+      height: auto;
+      margin: 1.5rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shots For Strays</h1>
+    <p>Every $5 saves a stray.</p>
+  </header>
+  <main>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <img src="dog.png" alt="Happy rescued dog">
+      <img src="cat.png" alt="Happy rescued cat">
+    </div>
+    <div class="donation-options">
+      <button onclick="window.location.href='pay.html'">$1 – Just $1 to Help</button>
+      <button onclick="window.location.href='pay.html'">$5 – Buy a Shot</button>
+      <button onclick="window.location.href='pay.html'">$10 – Feed + Protect</button>
+      <button onclick="window.location.href='pay.html'">$25 – Full Protection</button>
+      <button onclick="window.location.href='pay.html'">💖 Custom Gift</button>
+    </div>
+  </main>
+  <footer>
+    © 2023 Shots for Strays. All donations support global stray vaccine campaigns.
+  </footer>
+</body>
+</html>

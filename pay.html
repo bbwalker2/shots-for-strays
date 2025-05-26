@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complete Your Donation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 2rem;
+      background: #fdf6f5;
+    }
+    h1 {
+      color: #ff6666;
+      margin-bottom: 1rem;
+    }
+    label, input, select {
+      display: block;
+      margin: 1rem auto;
+      font-size: 1rem;
+    }
+    input, select {
+      padding: 0.5rem;
+      width: 60%;
+      max-width: 300px;
+    }
+    button {
+      background-color: #ff6666;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Complete Your Donation</h1>
+  <p>Choose how you'd like to pay</p>
+  <form>
+    <label for="amount">Enter Amount</label>
+    <input type="number" id="amount" placeholder="Enter any amount" required>
+    <label for="currency">Select Currency</label>
+    <select id="currency">
+      <option value="THB">THB (฿)</option>
+      <option value="USD">USD ($)</option>
+    </select>
+    <button type="submit">Proceed to Pay</button>
+  </form>
+</body>
+</html>
